@@ -1,0 +1,107 @@
+@font-face{
+	font-family:cowboy;
+	src: url(../fonts/bleedingcowboys.ttf);
+}
+@font-face{
+	font-family: bravada;
+	src: url(../fonts/bravada.ttf);
+}
+@font-face{
+	font-family:comicsans;
+	src: url(../fonts/comicsans.ttf);
+}
+@font-face{
+	font-family: disco;
+	src: url(../fonts/diskoteque.ttf);
+}
+@font-face{
+	font-family:germ;
+	src: url(../fonts/germanika.ttf);
+}
+@font-face{
+	font-family: herc;
+	src: url(../fonts/herculanum.ttf);
+}
+@font-face{
+	font-family:starlight;
+	src: url(../fonts/ladystarlight.ttf);
+}
+@font-face{
+	font-family: preschool;
+	src: url(../fonts/preschooler.ttf);
+}
+@font-face{
+		font-family: riesling;
+	src: url(../fonts/riesling.ttf);
+}
+
+html{
+
+}
+
+body{
+
+}
+
+
+.home{
+	position: absolute;
+	z-index: 1;
+	top: 30px;
+	left: 230px;
+}
+
+.dream{
+	position: absolute;
+	z-index: 2;
+	top: 150px;
+	left: 620px;
+}
+
+.vid{
+	position: absolute;
+	z-index: 3;
+	top: 110px;
+	left: 320px;
+}
+
+.game{
+	position: absolute;
+	z-index: 4;
+	top: 255px;
+	left: 550px;
+}
+
+.ar{
+	position: absolute;
+	z-index: 4;
+	top: 420px;
+	left: 370px;
+}
+
+.gallery{
+	position: absolute;
+	z-index: 4;
+	top: 580px;
+	left: 410px;
+}
+
+.d3{
+	position: absolute;
+	z-index: 4;
+	top: 740px;
+	left: 525px;
+}
+
+.perf{
+	position: absolute;
+	z-index: 4;
+	top: 895px;
+	left: 455px;
+}
+
+
+
+
+
+

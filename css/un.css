@@ -1,0 +1,276 @@
+
+@font-face{
+	font-family:cowboy;
+	src: url(../fonts/bleedingcowboys.ttf);
+}
+@font-face{
+	font-family: bravada;
+	src: url(../fonts/bravada.ttf);
+}
+@font-face{
+	font-family:comicsans;
+	src: url(../fonts/comicsans.ttf);
+}
+@font-face{
+	font-family: disco;
+	src: url(../fonts/diskoteque.ttf);
+}
+@font-face{
+	font-family:germ;
+	src: url(../fonts/germanika.ttf);
+}
+@font-face{
+	font-family: herc;
+	src: url(../fonts/herculanum.ttf);
+}
+@font-face{
+	font-family:starlight;
+	src: url(../fonts/ladystarlight.ttf);
+}
+@font-face{
+	font-family: preschool;
+	src: url(../fonts/preschooler.ttf);
+}
+@font-face{
+	font-family: riesling;
+	src: url(../fonts/riesling.ttf);
+}
+@font-face{
+	font-family: wish;
+	src: url(../fonts/Sailor-Moon-Font/WishMF.ttf);
+}
+@font-face{
+	font-family: hard;
+	src: url(../fonts/Sailor-Moon-Font/HARDW.ttf);
+}
+@font-face{
+	font-family:flix;
+	src: url(../fonts/Filxgirl.TTF);
+}
+
+@keyframes bg{
+	0%{
+		color: #bee1e8;
+	}
+	50%{
+		color: #6ca7e6 ;
+	}
+	100%{
+		color: #bee1e8;
+	}
+}
+@keyframes one{
+	0%{
+		bottom: calc(0% - 100px);
+		left: 45%;
+	}
+	100%{
+		bottom: 100%;
+		left:25%;
+	}
+}
+@keyframes two{
+	0%{
+		right: calc(0% - 180px);
+		bottom: 30%;
+	}
+
+	100%{
+		right: 100%;
+		bottom: 60%;
+
+	}
+}
+@keyframes three{
+	0%{
+		bottom: calc(0% - 64px);
+		left: 20%; 
+		
+	}
+
+	100%{	
+		bottom: 100%;
+		left: 60%;
+		
+	}
+}
+@keyframes four{
+	0%{
+		bottom: calc(0% - 105px);
+		left: 80%; 
+		
+	}
+
+	100%{	
+		bottom: 100%;
+		left: 10%;
+		
+	}
+}
+
+html{
+
+	background-image: url(../gifs/god/fingerofgod.gif);
+}
+
+
+body{
+ 
+	height: 100%;
+}
+
+
+img{
+}
+
+h1{
+	font-family:hard;
+	color:#f0eace;
+	text-align:center;
+}
+
+h2{
+	/*font-family: sans-serif;*/
+	color:#f0eace;
+	font-size:1.5vw;
+	background-color: rgba(66, 58, 28,.7);
+}
+
+a, a:visited{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	animation-name: bg;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+}
+
+iframe{
+	width: 100%;
+	height: 700px;
+}
+
+#yah{
+	position: absolute;
+	top:10px;
+	left:10px;
+	font-family: comicsans;
+	font-size: 50px;
+	color:#f0eace;
+}
+
+#myimage{
+	width: 90%;
+	cursor:none auto ;
+	padding-left:30px;
+}
+
+#intro{
+	position: relative;
+	z-index: 3;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 100%;
+	text-align: center;
+	background-image: url(../gifs/god/aniart.gif);
+}
+
+#adam{
+	position: fixed;
+	z-index: 1; 
+	bottom:0px;
+	left:0px;
+}
+#god{
+	position: fixed;
+	z-index: 1; 
+	top:25px;
+	padding-left: 100px;
+	right: -100px;
+
+}
+
+.pics{
+	padding-top: 50px;
+	z-index: 3;
+	width: 75%;
+	height: 100%;
+	padding-left:calc(30% - 200px);
+	position: absolute;
+	padding-bottom: 100px;
+	margin-bottom: 100px;
+
+}
+
+.bg{
+	font-size: 30px;
+	background-image: url(../gifs/god/SINGLOGO.gif);
+	background-size: 100px auto;
+}
+
+.hide{
+	background-color: rgba(0,0,0,0.9);
+	width: 90%;
+	z-index: 7;
+}
+
+.one{
+	position: fixed;
+	animation-name: one;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	height: 100px;
+	width: 100px;
+	background-image: url(../gifs/god/angel19.gif);
+	animation-timing-function: ease-in-out;
+
+}
+
+.two{
+	position: fixed;
+	animation-name: two;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	height: 180px;
+	width: 180px;
+	background-image: url(../gifs/god/dove.gif);
+	animation-timing-function: ease-in-out;
+
+}
+
+.three{
+	position: fixed;
+	animation-name: three;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	height: 64px;
+	width: 64px;
+	background-image: url(../gifs/god/siren01.gif);
+	animation-timing-function: ease-in-out;
+}
+
+.four{
+	position: fixed;
+	animation-name: four;
+	animation-duration: 12s;
+	animation-iteration-count: infinite;
+	height: 105px;
+	width: 103px;
+	background-image: url(../gifs/fairy/ani_prettyfaery_sm_rt.gif);
+	animation-timing-function: ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,416 @@
+@font-face{
+	font-family:cowboy;
+	src: url(../fonts/bleedingcowboys.ttf);
+}
+@font-face{
+	font-family: bravada;
+	src: url(../fonts/bravada.ttf);
+}
+@font-face{
+	font-family:comicsans;
+	src: url(../fonts/comicsans.ttf);
+}
+@font-face{
+	font-family: disco;
+	src: url(../fonts/diskoteque.ttf);
+}
+@font-face{
+	font-family:germ;
+	src: url(../fonts/germanika.ttf);
+}
+@font-face{
+	font-family: herc;
+	src: url(../fonts/herculanum.ttf);
+}
+@font-face{
+	font-family:starlight;
+	src: url(../fonts/ladystarlight.ttf);
+}
+@font-face{
+	font-family: preschool;
+	src: url(../fonts/preschooler.ttf);
+}
+@font-face{
+	font-family: riesling;
+	src: url(../fonts/riesling.ttf);
+}
+@font-face{
+	font-family: wish;
+	src: url(../fonts/Sailor-Moon-Font/WishMF.ttf);
+}
+@font-face{
+	font-family: hard;
+	src: url(../fonts/Sailor-Moon-Font/HARDW.ttf);
+}
+@font-face{
+	font-family:flix;
+	src: url(../fonts/Filxgirl.TTF);
+}
+
+
+@keyframes intro {
+	0%{
+		color: #f2c9e2;
+	}
+
+	35%{
+		color:#c4f086;
+	}
+
+	65%{
+		color:#9bdfeb;
+	}
+
+	100%{
+		color:#f2c9e2;
+	}
+}
+
+html{
+	background-image: url(../gifs/bg/space2.gif);
+	cursor: url(../cursors/N64.cur), auto;
+
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	border:0px;
+	cursor: url(../cursors/N64.cur), auto;
+
+}
+
+img{
+	padding:20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0px;
+	padding-left: 20px;
+	cursor: url(../cursors/N64.cur), auto;
+}
+
+#beep img{
+	pointer-events: auto|none;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: inherit;
+	cursor: url(../cursors/Swords.cur), auto;
+}
+
+.mouse{
+	padding-top: 20px;
+}
+
+#intro{
+	padding-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: preschool;
+	font-size: 100px;
+	animation-name: intro;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	position: relative;
+	z-index: 10;
+	height:200px;
+	width: 300px;
+}
+
+#arrow{
+	position: absolute;
+	left: 400px;
+	width: 100px;
+}
+
+#gifs1{
+	width:2000px;
+	position: relative;
+	height:600;
+	margin-top:50px;
+}
+
+#skull{
+	background-image: url(../gifs/edgy/skullblueflames.gif);
+	background-image-repeat:round;
+	position: relative;
+	z-index:1;
+	width: 100%;;
+	height: 525px;
+}
+
+#rose{
+	background-image: url(../gifs/flower/eden.gif);
+	background-image-repeat:round;
+	position: relative;
+	z-index:1;
+	width: 100%;
+	height: 590px;
+}
+
+#drape{
+	background-image: url(../gifs/edgy/drape.gif);
+	background-image-repeat:round;
+	position: relative;
+	z-index:1;
+	width: 100%;
+	height: 565px;
+}
+
+#ninja{
+	background-image: url(../gifs/edgy/ninja.gif);
+	background-image-repeat:round;
+	position: relative;
+	z-index:1;
+	width: 100%;
+	height: 500px;
+}
+
+#d1{
+	padding-top: 50px;
+	display: inline-block;
+	height: 600px;
+	margin-left: 50px;
+	width: 1950px;
+
+}
+
+#text1{
+	color: white;
+	font-size: 40px;
+	font-family: hard;
+	position: absolute ;
+	z-index: 10;
+	left:600px;
+	bottom: 15px;
+	background-color: rgba(0,0,0,.4);
+}
+
+#gifs2{
+	width:2000px;
+	position: relative;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+#lightning{
+	background-image: url(../gifs/edgy/lightning.gif);
+	height: 520px;
+	position: relative;
+	z-index:1;
+	width: 100%;
+}
+
+#fairy{
+	background-image: url(../gifs/fairy/fairysmall.gif);
+	height: 550px;
+	position: relative;
+	z-index:1;
+	width: 100%;
+}
+
+#monster{
+	background-image: url(../gifs/edgy/monster.gif);
+	height: 570px;
+	position: relative;
+	z-index:1;
+	width: 100%;
+}
+
+#cross{
+	background-image: url(../gifs/god/cross_shimmer.gif);
+	height: 560px;
+	position: relative;
+	z-index:1;
+	width: 100%;
+}
+
+#d2{
+	display: inline-block;
+	height: 600px;
+	margin-left: 50px;
+	width: 1950px;
+
+}
+
+#text2{
+	color: white;
+	font-size: 70px;
+	font-family: wish;
+	position: absolute ;
+	z-index: 10;
+	left:600px;
+	bottom: 100px;
+	background-color: rgba(0,0,0,.4);
+}
+
+#gifs3{
+	width:2000px;
+	position: relative;
+	height:600;
+	margin-top:20px;
+}
+
+#butterfly{
+	background-image: url(../gifs/pretty/prettybutterfly.gif);
+	height: 590px;
+	position: relative;
+	z-index:1;
+	width: 100%;
+}
+
+#death{
+	background-image: url(../gifs/edgy/death.gif);
+	height: 600px;
+	position: relative;
+	z-index:1;
+	width: 100%;
+}
+
+#fairyz{
+	background-image: url(../gifs/fairy/fairyz.gif);
+	height: 580px;
+	position: relative;
+	z-index:1;
+	width: 100%;
+}
+
+#dove{
+	background-image: url(../gifs/pretty/peacedove.gif);
+	height: 590px;
+	position: relative;
+	z-index:1;
+	width: 100%;
+}
+
+#heart{
+	background-image: url(../gifs/pretty/love17.gif);
+	height: 600px;
+	position: relative;
+	z-index:1;
+	width: 100%;
+}
+
+#d3{
+	padding-top: 50px;
+	display: inline-block;
+	height: 600px;
+	margin-left: 50px;
+	width: 1950px;
+}
+
+#text3{
+	color: white;
+	font-size: 60px;
+	font-family: flix;
+	position: absolute ;
+	z-index: 10;
+	left:600px;
+	bottom: 60px;
+	background-color: rgba(0,0,0,.4);
+}
+
+#new{
+	position: fixed;
+	right: 20px;
+	bottom: 1px;
+	z-index: 10;
+}
+
+#back{
+	position: fixed;
+	padding-left: 20px;
+	bottom: 1px;
+	z-index: 10;
+}
+
+#text1:hover,#text2:hover,#text3:hover,#text4:hover{
+	color: hotpink;
+}
+
+#gifs4{
+	width:2000px;
+	position: relative;
+	height:650;
+	margin-top:20px;
+	margin-bottom: 50px;
+}
+
+#une{
+	background-image: url(../gifs/fairy/g-flrfry.gif);
+	background-image-repeat:round;
+	position: relative;
+	background-size: 100px auto;
+	z-index:1;
+	width: 100%;;
+	height: 600px;
+}
+
+#deux{
+	background-image: url(../gifs/edgy/godflame.gif);
+	background-image-repeat:round;
+	position: relative;
+	z-index:1;
+	width: 100%;
+	height: 590px;
+}
+
+#trois{
+	background-image: url(../gifs/fairy/tsf3wand.gif);
+	background-image-repeat:round;
+	position: relative;
+	z-index:1;
+	width: 100%;
+	height: 600px;
+}
+
+#quatre{
+	background-image: url(../gifs/nsfw/hand.gif);
+	background-image-repeat:round;
+	position: relative;
+	z-index:1;
+	width: 100%;
+	height: 590px;
+}
+
+#d4{
+	padding-top:25px;
+	height: 600px;
+	margin-left: 50px;
+	width: 1950px;
+}
+
+.bot{
+	padding-bottom: 75px;
+}
+
+#text4{
+	bottom:50px;
+	color: white;
+	font-size: 70px;
+	font-family: wish;
+	position: absolute ;
+	z-index: 10;
+	left:600px;
+	background-color: rgba(0,0,0,.4);
+}
+
+#grid{
+	display: grid;
+	margin-left: 400px;
+	grid-template-columns:auto auto auto auto;
+	grid-template-rows:300px 300px; 
+}
+
+.abs{
+	position: absolute;
+}
+
+
+
+
+
+
+
+

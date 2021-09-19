@@ -1,0 +1,145 @@
+
+@font-face{
+	font-family:cowboy;
+	src: url(../fonts/bleedingcowboys.ttf);
+}
+@font-face{
+	font-family: bravada;
+	src: url(../fonts/bravada.ttf);
+}
+@font-face{
+	font-family:comicsans;
+	src: url(../fonts/comicsans.ttf);
+}
+@font-face{
+	font-family: disco;
+	src: url(../fonts/diskoteque.ttf);
+}
+@font-face{
+	font-family:germ;
+	src: url(../fonts/germanika.ttf);
+}
+@font-face{
+	font-family: herc;
+	src: url(../fonts/herculanum.ttf);
+}
+@font-face{
+	font-family:starlight;
+	src: url(../fonts/ladystarlight.ttf);
+}
+@font-face{
+	font-family: preschool;
+	src: url(../fonts/preschooler.ttf);
+}
+@font-face{
+		font-family: riesling;
+	src: url(../fonts/riesling.ttf);
+}
+
+
+@keyframes intro {
+	0%{
+		color: #f2c9e2;
+	}
+
+	35%{
+		color:#c4f086;
+	}
+
+	65%{
+		color:#9bdfeb;
+	}
+
+	100%{
+		color:#f2c9e2;
+	}
+}
+
+html{
+	background-image: url(../gifs/bg/space.gif);
+	cursor: url(../cursors/aeroarrow.cur), auto;
+}
+
+body{
+
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: inherit;
+	cursor: url(../cursors/aerolink.cur), auto;
+}
+
+video{
+	width: 100%;
+	height: auto;
+	cursor: url(../cursors/aeroarrow.cur), auto;
+}
+
+h3{
+	font-family: germ;
+	text-align: center;
+	color: lightgrey;
+	position: relative;
+	letter-spacing: 1.5px;
+	font-size:30px;
+
+}
+
+h4{
+	font-family: comicsans;
+	animation-name: intro;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	font-size: 15px;
+}
+
+#intro{
+	font-family: preschool;
+	padding-top: 25px;
+	padding-left: 50px;
+	font-size:55px;
+	animation-name: intro;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	position: relative;
+	z-index: 10;
+	height:100px;
+}
+
+#vid{
+	position: relative;
+	padding-bottom: 55px;
+}
+
+#back{
+	padding-left: 10px;
+	position: fixed;
+	bottom: 5px;
+	z-index: 3;
+}
+
+#back2{
+	padding-left: 60px;
+	position: fixed;
+	bottom: 5px;
+	z-index: 2;
+}
+
+#next{
+	right: 10px;
+	position: fixed;
+	bottom: 5px;
+	z-index: 3;
+}
+
+#next2{
+	right: 60px;
+	position: fixed;
+	bottom: 5px;
+	z-index: 2;
+}
+
+
+
+

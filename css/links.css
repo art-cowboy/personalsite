@@ -1,0 +1,93 @@
+
+@font-face{
+	font-family:cowboy;
+	src: url(../fonts/bleedingcowboys.ttf);
+}
+@font-face{
+	font-family: bravada;
+	src: url(../fonts/bravada.ttf);
+}
+@font-face{
+	font-family:comicsans;
+	src: url(../fonts/comicsans.ttf);
+}
+@font-face{
+	font-family: disco;
+	src: url(../fonts/diskoteque.ttf);
+}
+@font-face{
+	font-family:germ;
+	src: url(../fonts/germanika.ttf);
+}
+@font-face{
+	font-family: herc;
+	src: url(../fonts/herculanum.ttf);
+}
+@font-face{
+	font-family:starlight;
+	src: url(../fonts/ladystarlight.ttf);
+}
+@font-face{
+	font-family: preschool;
+	src: url(../fonts/preschooler.ttf);
+}
+@font-face{
+	font-family: riesling;
+	src: url(../fonts/riesling.ttf);
+}
+@font-face{
+	font-family: wish;
+	src: url(../fonts/Sailor-Moon-Font/WishMF.ttf);
+}
+@font-face{
+	font-family: hard;
+	src: url(../fonts/Sailor-Moon-Font/HARDW.ttf);
+}
+@font-face{
+	font-family:flix;
+	src: url(../fonts/Filxgirl.TTF);
+}
+
+html{
+	background-image: radial-gradient(circle,rgb(10, 204, 0),rgb(98, 0, 255));
+}
+
+body{
+	
+	background-image: url(../gifs/pretty/starpretty.gif);
+}
+
+h1{
+	font-family: cowboy;
+	color:darkblue;
+	text-align: center;
+	font-size: 60px;
+}
+
+h2{
+	font-family: comicsans;
+	color:rgb(247, 0, 255);
+ 
+}
+
+iframe{
+	width: 700px;
+	height: 500px;
+	margin-left: 100px;
+}
+
+#info{
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+

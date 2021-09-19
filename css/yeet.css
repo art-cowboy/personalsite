@@ -1,0 +1,205 @@
+
+@font-face{
+	font-family:cowboy;
+	src: url(../fonts/bleedingcowboys.ttf);
+}
+@font-face{
+	font-family: bravada;
+	src: url(../fonts/bravada.ttf);
+}
+@font-face{
+	font-family:comicsans;
+	src: url(../fonts/comicsans.ttf);
+}
+@font-face{
+	font-family: disco;
+	src: url(../fonts/diskoteque.ttf);
+}
+@font-face{
+	font-family:germ;
+	src: url(../fonts/germanika.ttf);
+}
+@font-face{
+	font-family: herc;
+	src: url(../fonts/herculanum.ttf);
+}
+@font-face{
+	font-family:starlight;
+	src: url(../fonts/ladystarlight.ttf);
+}
+@font-face{
+	font-family: preschool;
+	src: url(../fonts/preschooler.ttf);
+}
+@font-face{
+		font-family: riesling;
+	src: url(../fonts/riesling.ttf);
+}
+
+@keyframes intro {
+	0%{
+		color: #f2c9e2;
+	}
+
+	35%{
+		color:#c4f086;
+	}
+
+	65%{
+		color:#9bdfeb;
+	}
+
+	100%{
+		color:#f2c9e2;
+	}
+}
+
+@keyframes hover {
+	0%{
+		color: #c9f2d2;
+	}
+
+	35%{
+		color:#f08686;
+	}
+
+	65%{
+		color:#ffbf52;
+	}
+
+	100%{
+		color:#c9f2d2;
+	}
+}
+
+html{
+	background-image: url(../gifs/bg/space.gif);
+	margin:auto;
+	height: 100%;
+	cursor: url(../cursors/cuteswd.cur), auto;
+}
+
+body{
+
+}
+
+a{
+	text-decoration: none;
+	cursor: url(../gifs/weird/disco.gif), auto;
+	color: inherit;
+}
+
+a:hover{
+	animation-name: hover;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+a:visited{
+	text-decoration: none;
+	color: inherit;
+	cursor: url(../gifs/weird/disco.gif), auto;
+}
+
+h3{
+	font-family: comicsans ;
+	color: lightgrey;
+	font-size: 14px;
+	text-align: center;
+}
+
+#intro{
+	padding-top: 5px;
+	padding-left: 50px;
+	font-family: preschool;
+	font-size: 50px;
+	animation-name: intro;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	position: relative;
+	z-index: 10;
+	height:150px;
+}
+
+#pics{
+	position: relative;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 650px;
+}
+
+#roman{
+	background-color: rgba(0,0,0,.3);
+ 	font-size: 35px;
+ 	padding-left: 40px;
+ 	padding-right: 40px;
+ 	padding-top: 50px;
+ 	font-family: herc;
+ 	text-align:center;
+ 	height: 150px;
+ 	animation-name: intro;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+#noir{
+	background-color: rgba(0,0,0,.3);
+ 	font-size: 50px;
+ 	padding-left: 35px;
+ 	padding-right: 30px;
+ 	padding-top: 50px;
+ 	font-family: riesling;
+ 	text-align:center;
+ 	height: 150px;
+ 	animation-name: intro;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+#braums{
+	background-color: rgba(0,0,0,.3);
+ 	font-size: 35px;
+ 	padding-left: 45px;
+ 	padding-right: 50px;
+ 	padding-top: 50px;
+ 	font-family: comicsans;
+ 	text-align:center;
+ 	height: 150px;
+ 	animation-name: intro;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+
+}
+
+#one{
+	display: grid;
+
+}
+
+#two{
+	display: grid;
+}
+
+#three{
+	display: grid;
+}
+
+
+#new{
+	position: fixed;
+	right: 20px;
+	bottom: 15px;
+}
+
+#back{
+	position: fixed;
+	padding-left: 20px;
+	bottom: 15px;
+}
+
+
+
+
+

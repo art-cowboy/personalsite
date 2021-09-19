@@ -1,0 +1,121 @@
+
+@font-face{
+	font-family:cowboy;
+	src: url(../fonts/bleedingcowboys.ttf);
+}
+@font-face{
+	font-family: bravada;
+	src: url(../fonts/bravada.ttf);
+}
+@font-face{
+	font-family:comicsans;
+	src: url(../fonts/comicsans.ttf);
+}
+@font-face{
+	font-family: disco;
+	src: url(../fonts/diskoteque.ttf);
+}
+@font-face{
+	font-family:germ;
+	src: url(../fonts/germanika.ttf);
+}
+@font-face{
+	font-family: herc;
+	src: url(../fonts/herculanum.ttf);
+}
+@font-face{
+	font-family:starlight;
+	src: url(../fonts/ladystarlight.ttf);
+}
+@font-face{
+	font-family: preschool;
+	src: url(../fonts/preschooler.ttf);
+}
+@font-face{
+		font-family: riesling;
+	src: url(../fonts/riesling.ttf);
+}
+
+
+@keyframes dreamcolor {
+
+	0% {color: rgb(178, 135, 230);}
+
+	35% {color: rgb(96, 222, 29);}
+
+	65% {color: rgb(100,100,100);}
+
+	100% {color: rgb(178, 135, 230);}
+}
+
+@keyframes hovercolor {
+
+	0% {color: rgb(250, 237, 95);}
+
+	35% {color: rgb(245, 76, 208);}
+
+	65% {color: rgb(100,100,100);}
+
+	100% {color: rgb(250, 237, 95);}
+}
+
+@keyframes size{
+
+	0% {font-size: 20px;}
+
+	50% {font-size: 80px;}
+
+	100% {font-size: 20px;}
+}
+
+html{
+	background-image: url(../gifs/bg/space.gif);
+	padding:none;
+	margin:none;
+	height: 100%;
+}
+
+body{
+
+}
+
+a, a:visited{
+	text-decoration:none;
+	animation-duration: 4s;
+	animation-name: dreamcolor;
+	animation-iteration-count: infinite;
+}
+
+a:hover{
+	text-decoration: none;
+	animation-duration: 4s;
+	animation-name: hovercolor;
+	animation-iteration-count: infinite;
+}
+
+#dream{
+	margin-top: 25%;
+	margin-bottom: 25%;
+	top:20px;
+	color: white;
+	font-family: germ;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	text-align: center;
+	position: relative;
+	animation-name: size;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+}
+
+
+
+
+
+
+
+
+
+
+

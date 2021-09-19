@@ -1,0 +1,217 @@
+
+@font-face{
+	font-family:cowboy;
+	src: url(../fonts/bleedingcowboys.ttf);
+}
+@font-face{
+	font-family: bravada;
+	src: url(../fonts/bravada.ttf);
+}
+@font-face{
+	font-family:comicsans;
+	src: url(../fonts/comicsans.ttf);
+}
+@font-face{
+	font-family: disco;
+	src: url(../fonts/diskoteque.ttf);
+}
+@font-face{
+	font-family:germ;
+	src: url(../fonts/germanika.ttf);
+}
+@font-face{
+	font-family: herc;
+	src: url(../fonts/herculanum.ttf);
+}
+@font-face{
+	font-family:starlight;
+	src: url(../fonts/ladystarlight.ttf);
+}
+@font-face{
+	font-family: preschool;
+	src: url(../fonts/preschooler.ttf);
+}
+@font-face{
+		font-family: riesling;
+	src: url(../fonts/riesling.ttf);
+}
+
+html{
+	background-image: url(../gifs/bg/space2.gif);
+
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	border:0px;
+	cursor: url(../gifs/god/cross.gif), auto;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	cursor: url(../gifs/god/cross4.gif), auto;
+
+}
+
+
+@keyframes intro {
+	0%{
+		color: #f2c9e2;
+	}
+
+	35%{
+		color:#c4f086;
+	}
+
+	65%{
+		color:#9bdfeb;
+	}
+
+	100%{
+		color:#f2c9e2;
+	}
+}
+
+#oof{
+	position: absolute;
+	color: white;
+	font-family: comicsans;
+	font-size: 18px;
+	top: 70px;
+	left: 880px;
+}
+
+#index{
+	cursor: url(../gifs/god/cross.gif), auto;
+}
+
+#click{
+	z-index: 11;
+	right: 20px;
+	color: white;
+	font-family: comicsans;
+	font-size: 18px;
+	position: absolute;
+}
+
+#intro{
+	top: 50px;
+	margin-bottom: 50px;
+	font-family: preschool;
+	font-size: 100px;
+	animation-name: intro;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	position: relative;
+	z-index: 10;
+	height:200px;
+	width: calc(100% - 50px);
+	background-image: url(../gifs/bg/space2.gif);
+	
+}
+
+#slice-1{
+	background-image: url(../gifs/bg/space2.gif);
+	position: relative;
+	height: 100%;
+	width: calc(100% - 50);
+}
+
+#slice-2{
+	width: calc(100% - 25px);
+	padding-left: 50px;
+	padding-bottom: 50px;
+	font-family: preschool;
+	font-size: 100px;
+	animation-name: intro;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	position: absolute;
+	z-index: 10;
+	background-color: rgba(0,0,0,.5);
+}
+
+#drk{
+	background-image: url(../gifs/fairy/drkfairy.gif);
+	background-image-repeat:round;
+	position: relative;
+	z-index:1;
+	width: 100%;
+	height:750px;
+}
+
+#dove{
+	background-image: url(../gifs/god/dove.gif);
+	background-image-repeat:round;
+	position: relative;
+	z-index:2;
+	top: 110px;
+	width: 100%;
+	height:550px;
+}
+
+#sword3{
+	background-image: url(../gifs/edgy/sword3.gif);
+	background-image-repeat:round;
+	position: relative;
+	z-index: 3;
+	width: 100%;
+	height:750px;
+}
+
+#anitorch{
+	background-image: url(../gifs/edgy/anitorch.gif);
+	background-image-repeat:round;
+	position: relative;
+	z-index:4;
+	width:100%;
+	height:750px;
+}
+
+#chainlink{
+	padding-top: 10px;
+	width: 100%;
+}
+
+#chainlink:hover{
+	cursor: url(../gifs/god/cross4.gif), auto;
+}
+
+#daisy{
+	background-image: url(../gifs/flower/daisy.gif);
+}
+
+#lmao{
+	padding-top:100px;
+	padding-left:500px;
+	position: absolute;
+}
+
+#omg{
+	padding-top:0px;
+	padding-left:100px;
+	position: absolute;
+}
+
+#yeet{
+	padding-top: 400px;
+	padding-left:250px;
+	position: absolute;
+}
+
+#wtf{
+	padding-top:250px;
+	padding-left:700px;
+	position: absolute;
+}
+
+#yoinks{
+	padding-top:50px;
+	padding-left:900px;
+	position: absolute;
+}

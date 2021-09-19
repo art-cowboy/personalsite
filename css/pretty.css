@@ -1,0 +1,785 @@
+
+@font-face{
+	font-family:cowboy;
+	src: url(../fonts/bleedingcowboys.ttf);
+}
+@font-face{
+	font-family: bravada;
+	src: url(../fonts/bravada.ttf);
+}
+@font-face{
+	font-family:comicsans;
+	src: url(../fonts/comicsans.ttf);
+}
+@font-face{
+	font-family: disco;
+	src: url(../fonts/diskoteque.ttf);
+}
+@font-face{
+	font-family:germ;
+	src: url(../fonts/germanika.ttf);
+}
+@font-face{
+	font-family: herc;
+	src: url(../fonts/herculanum.ttf);
+}
+@font-face{
+	font-family:starlight;
+	src: url(../fonts/ladystarlight.ttf);
+}
+@font-face{
+	font-family: preschool;
+	src: url(../fonts/preschooler.ttf);
+}
+@font-face{
+	font-family: riesling;
+	src: url(../fonts/riesling.ttf);
+}
+@font-face{
+	font-family: wish;
+	src: url(../fonts/Sailor-Moon-Font/WishMF.ttf);
+}
+@font-face{
+	font-family: hard;
+	src: url(../fonts/Sailor-Moon-Font/HARDW.ttf);
+}
+@font-face{
+	font-family:flix;
+	src: url(../fonts/Filxgirl.TTF);
+}
+
+@keyframes intro {
+	0%{
+		color: #f2c9e2;
+	}
+
+	35%{
+		color:#c4f086;
+	}
+
+	65%{
+		color:#9bdfeb;
+	}
+
+	100%{
+		color:#f2c9e2;
+	}
+}
+
+@keyframes cyborg {
+	0%{
+		color: #2aff17;
+	}
+
+	35%{
+		color:#ff1717;
+	}
+
+	65%{
+		color:#266fff;
+	}
+
+	100%{
+		color:#2aff17;
+	}
+}
+
+@keyframes clown {
+	0%{
+		color: #ff26fb;
+	}
+
+	35%{
+		color:#79acdb;
+	}
+
+	65%{
+		color:#f0f01d;
+	}
+
+	100%{
+		color:#ff26fb;
+	}
+}
+
+@keyframes cool {
+	0%{
+		color: #00ffc8;
+	}
+
+	35%{
+		color:#ff08c9;
+	}
+
+	65%{
+		color:#79acdb;
+	}
+
+	100%{
+		color:#00ffc8;
+	}
+}
+
+@keyframes crystal {
+	0%{
+		color: #d29ae3;
+	}
+
+	35%{
+		color:#ffffb3;
+	}
+
+	65%{
+		color:#fab3ff;
+	}
+
+	100%{
+		color:#d29ae3;
+	}
+}
+
+@keyframes elf {
+	0%{
+		color: #b3e7ff;
+	}
+
+	35%{
+		color:#7a1050;
+	}
+
+	65%{
+		color:#377cad;
+	}
+
+	100%{
+		color:#b3e7ff;
+	}
+}
+
+@keyframes flame {
+	0%{
+		color: #ff1900;
+	}
+
+	35%{
+		color:#fff200;
+	}
+
+	65%{
+		color:#ff8800;
+	}
+
+	100%{
+		color:#ff1900;
+	}
+}
+
+@keyframes halo {
+	0%{
+		color: #d4ff00;
+	}
+
+	35%{
+		color:#b3ffc2;
+	}
+
+	65%{
+		color:#facdf5;
+	}
+
+	100%{
+		color:#d4ff00;
+	}
+}
+
+@keyframes king {
+	0%{
+		color: #951fff;
+	}
+
+	35%{
+		color:#edd9ff;
+	}
+
+	65%{
+		color:#a3004f;
+	}
+
+	100%{
+		color:#951fff;
+	}
+}
+
+@keyframes stupid {
+	0%{
+		color: #e7ff2e;
+	}
+
+	35%{
+		color:#ff00dd;
+	}
+
+	65%{
+		color:#ff6200;
+	}
+
+	100%{
+		color:#e7ff2e;
+	}
+}
+
+@keyframes star {
+	0%{
+		color: #eb4034;
+	}
+
+	35%{
+		color:#11dff2;
+	}
+
+	65%{
+		color:#373f40;
+	}
+
+	100%{
+		color:#eb4034;
+	}
+}
+
+@keyframes squared {
+	0%{
+		color: #5b00c9;
+	}
+
+	35%{
+		color:#e0feff;
+	}
+
+	65%{
+		color:#1c5a5c;
+	}
+
+	100%{
+		color:#5b00c9;
+	}
+}
+
+@keyframes tropical {
+	0%{
+		color: #148716;
+	}
+
+	35%{
+		color:#a1cf38;
+	}
+
+	65%{
+		color:#d99102;
+	}
+
+	100%{
+		color:#148716;
+	}
+}
+
+@keyframes uggy {
+	0%{
+		color: #951fff;
+	}
+
+	35%{
+		color:#edd9ff;
+	}
+
+	65%{
+		color:#3bed44;
+	}
+
+	100%{
+		color:#951fff;
+	}
+}
+
+@keyframes landline {
+	0%{
+		color: #fc0303;
+	}
+
+	35%{
+		color:#008f13;
+	}
+
+	65%{
+		color:#b2d7ed;
+	}
+
+	100%{
+		color:#fc0303;
+	}
+}
+
+@keyframes earrings {
+	0%{
+		color: #f9d6ff;
+	}
+
+	35%{
+		color:#0057c2;
+	}
+
+	65%{
+		color:#fbffb5;
+	}
+
+	100%{
+		color:#f9d6ff;
+	}
+}
+
+@keyframes corn {
+	0%{
+		color: #fa73ff;
+	}
+
+	35%{
+		color:#f1ff00 ;
+	}
+
+	65%{
+		color:#00de2c;
+	}
+
+	100%{
+		color:#fa73ff;
+	}
+}
+
+@keyframes artsy {
+	0%{
+		color: #0042db;
+	}
+
+	35%{
+		color:#ff45d0 ;
+	}
+
+	65%{
+		color:#3c84a3;
+	}
+
+	100%{
+		color:#0042db;
+	}
+}
+
+@keyframes trixie {
+	0%{
+		color: #ff94df;
+	}
+
+	35%{
+		color:#caff94 ;
+	}
+
+	65%{
+		color:#ffad4f;
+	}
+
+	100%{
+		color:#ff94df;
+	}
+}
+
+html{
+	background-image: url(../gifs/pretty/toocute.gif);
+	background-color: pink;
+	cursor: url(../cursors/cellular.cur),auto;
+
+
+}
+
+body{
+	
+}
+
+
+h1{
+	font-family:bravada;
+	text-align: center;
+}
+
+h2{
+	font-size: 40px;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: inherit;
+	cursor: url(../cursors/mouse.cur), auto;
+}
+
+h3{
+	color: white;
+	font-size: 30px;
+}
+
+h4{
+	animation-name: intro;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	font-family: flix;
+	font-size: 45px;
+}
+
+
+#index{
+	font-family: bravada;
+	text-align: center;
+	font-size:100px;
+	animation-name: intro;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	background-color:rgba(255, 89, 241,.2);
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: double;
+	border-width: 20px;
+	border-color: white;
+}
+
+#intro{
+	color:white;
+	font-size: 35px;
+	border-style: double;
+	border-width: 20px;
+	border-color: white;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 150px;
+	background-image: url(../gifs/pretty/pretty1.gif);
+}
+
+#faces{
+	margin-left: 2%;
+	margin-top: 10px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	color: white;
+	text-align: center;
+}
+
+.text{
+	margin-top:25%;
+}
+
+#landline{
+	margin-bottom: 10px;
+	background-image: url(../pics/ar/landline.png);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	font-family: hard;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	animation-name: landline;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+#cyborg{
+	margin-bottom: 10px;
+	background-image: url(../pics/ar/circuiticon.png);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	font-family: bravada;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	animation-name: cyborg;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+#clown{
+	background-image: url(../pics/ar/clownicon.jpg);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	font-family: cowboy;
+	font-size: 0px;
+	animation-name: clown;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+#cool{
+	background-image: url(../pics/ar/coolguy.jpg);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	font-family: disco;
+	animation-name: cool;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+}
+
+#crystal{
+	background-image: url(../pics/ar/crystalicon.jpg);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	font-family: comicsans;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	animation-name: crystal;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	margin-bottom: 10px;
+
+}
+
+#elf{
+	background-image: url(../pics/ar/elvenicon.jpg);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	font-family: riesling;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	animation-name: elf;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+}
+
+#flame{
+	background-image: url(../pics/ar/flameicon.png);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	font-family: germ;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	animation-name: flame;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+}
+
+#halo{
+	background-image: url(../pics/ar/haloicon.png);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	font-family: hard;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	animation-name: halo;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+}
+
+#king{
+	background-image: url(../pics/ar/kingicon.png);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	font-family: starlight;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	animation-name: king;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	margin-bottom: 10px;
+
+}
+
+#stupid{
+	background-image: url(../pics/ar/stupidicon.jpg);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	font-family: preschool;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	animation-name: stupid;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+}
+
+#star{
+	background-image: url(../pics/ar/starmeicon.jpg);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	font-family: bravada;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	animation-name: star;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	margin-bottom: 10px;
+
+}
+
+#square{
+	background-image: url(../pics/ar/squareicon.jpg);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	font-family: wish;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	animation-name: squared;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+}
+
+#tropical{
+	background-image: url(../pics/ar/tropicalicon.jpg);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	font-family: herc;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	animation-name: tropical;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+}
+
+#earrings{
+	background-image: url(../pics/ar/earrings.jpg);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	font-family: preschool;
+	font-size: 0px;
+	animation-name: earrings;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+#corn{
+	background-image: url(../pics/ar/corngirl.jpg);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	font-family: wish;
+	font-size: 0px;
+	animation-name: corn;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+#uggy{
+	background-image: url(../pics/ar/ugggyicon.jpg);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	font-family: flix;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	animation-name: uggy;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	margin-bottom: 10px;
+}
+
+#artsy{
+	background-image: url(../pics/ar/artsybusy.jpg);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	font-family: disco;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	animation-name: artsy;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	margin-bottom: 10px;
+}
+
+#trixie{
+	background-image: url(../pics/ar/trixie.jpg);
+	background-size:100px; 
+	width: 300px;
+	height: 300px;
+	position: relative;
+	font-family: comicsans;
+	border-color: white;
+	border-style:double;
+	border-width:10px;
+	animation-name: trixie;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	margin-bottom: 10px;
+}
+
+#unicorn{
+	width: 300px;
+	height: 300px;
+	position: relative;
+}
+
+#next{
+	right: 60px;
+	padding-bottom:20px;
+	position: fixed;
+	bottom: 0px;
+	z-index: 2;
+}
+
+
+
+
+

@@ -1,0 +1,258 @@
+@font-face{
+	font-family:cowboy;
+	src: url(../fonts/bleedingcowboys.ttf);
+}
+@font-face{
+	font-family: bravada;
+	src: url(../fonts/bravada.ttf);
+}
+@font-face{
+	font-family:comicsans;
+	src: url(../fonts/comicsans.ttf);
+}
+@font-face{
+	font-family: disco;
+	src: url(../fonts/diskoteque.ttf);
+}
+@font-face{
+	font-family:germ;
+	src: url(../fonts/germanika.ttf);
+}
+@font-face{
+	font-family: herc;
+	src: url(../fonts/herculanum.ttf);
+}
+@font-face{
+	font-family:starlight;
+	src: url(../fonts/ladystarlight.ttf);
+}
+@font-face{
+	font-family: preschool;
+	src: url(../fonts/preschooler.ttf);
+}
+@font-face{
+	font-family: riesling;
+	src: url(../fonts/riesling.ttf);
+}
+@font-face{
+	font-family: wish;
+	src: url(../fonts/Sailor-Moon-Font/WishMF.ttf);
+}
+@font-face{
+	font-family: hard;
+	src: url(../fonts/Sailor-Moon-Font/HARDW.ttf);
+}
+@font-face{
+	font-family:flix;
+	src: url(../fonts/Filxgirl.TTF);
+}
+
+@font-face{
+	font-family: pc;
+	src: url(../fonts/windows_pc.ttf);
+}
+
+@keyframes font{
+	from {color: beige;}
+	50% {color: tan;}
+	to {color: beige;}
+}
+
+html{
+	background-image: url(../gifs/nsfw/dancer6.gif);
+	cursor: url(../cursors/sexy.cur),auto;
+}
+
+body{
+
+}
+img{
+	padding: 15px;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	cursor: url(../cursors/sexy2.cur), auto;
+
+}
+
+h1{
+	font-family: pc;
+	color: hotpink;
+	font-size: 40px;
+}
+
+h2{
+	font-family: pc;
+	color: white;
+}
+
+h3{
+	font-family: pc;
+	color:white;
+}
+
+#ad{
+	position: absolute;
+}
+
+#top{ 
+	position: relative;
+	margin-top: 30px;
+	font-size: 80px;
+	font-family: starlight;
+	text-align: center;
+	kerning: 10px;
+	animation-name: font;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+#cumhere {
+	position: absolute;
+	
+}
+
+#doggy{
+	position: absolute;
+	margin-top: 200px;
+	
+}
+
+#gayad {
+	position: absolute; 
+	margin-top: 400px;
+}
+
+#fuck{
+	position: absolute;
+	margin-top: 675px;
+}
+
+#nun{
+	position: absolute;
+}
+
+#wall{
+	position: absolute;
+	left: 200px;
+}
+
+#butt{
+	position: absolute;
+	margin-top: 850px;
+}
+
+#movie{
+	position: absolute;
+	margin-top: 1050px;
+}
+
+#play{
+	position: absolute;
+	margin-top: 1330px;
+}
+
+#ready{
+	position: absolute;
+	margin-top: 1530px;
+}
+
+#kinky{
+	position: absolute;
+	margin-top: 1735px;
+}
+
+#gay{
+	position: absolute;
+	left: 200px;
+}
+
+#drive{
+	position: absolute;
+	margin-top: 1930px;
+}
+
+#spy{
+	position: absolute;
+	margin-top: 2150px;
+}
+
+#tell{
+	position: absolute;
+	margin-top: 2450px;
+}
+
+#mannequin{
+	position: absolute;
+	left: 200px;
+}
+
+#text1{
+	background-color: lightblue;
+	width: 600px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+#cowboy{
+	background-color:blue;
+	display: inline-block;
+	margin-left: 150px;
+	width: 935px;
+}
+
+#executive{
+	margin-top: 125px;
+	background-color:blue;
+	display: inline-block;
+	margin-left: 150px;
+	width: 935px;
+}
+
+#text2{
+	background-color: lightblue;
+	width: 600px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+#face{
+	margin-top: 130px;
+	background-color:blue;
+	display: inline-block;
+	margin-left: 150px;
+	width: 935px;
+}
+
+#text3{
+	background-color: lightblue;
+	width: 600px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+#next{
+	position: fixed;
+	right: 20px;
+	bottom: 1px;
+	z-index: 10;
+}
+#back{
+	position: fixed;
+	padding-left: 20px;
+	bottom: 1px;
+	z-index: 10;
+}
+
+
+
+
+
+
+
+

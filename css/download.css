@@ -1,0 +1,160 @@
+
+@font-face{
+	font-family:cowboy;
+	src: url(../fonts/bleedingcowboys.ttf);
+}
+@font-face{
+	font-family: bravada;
+	src: url(../fonts/bravada.ttf);
+}
+@font-face{
+	font-family:comicsans;
+	src: url(../fonts/comicsans.ttf);
+}
+@font-face{
+	font-family: disco;
+	src: url(../fonts/diskoteque.ttf);
+}
+@font-face{
+	font-family:germ;
+	src: url(../fonts/germanika.ttf);
+}
+@font-face{
+	font-family: herc;
+	src: url(../fonts/herculanum.ttf);
+}
+@font-face{
+	font-family:starlight;
+	src: url(../fonts/ladystarlight.ttf);
+}
+@font-face{
+	font-family: preschool;
+	src: url(../fonts/preschooler.ttf);
+}
+@font-face{
+		font-family: riesling;
+	src: url(../fonts/riesling.ttf);
+}
+
+@keyframes disco{
+	0%{
+		color:rgb(100, 157, 227);
+	}
+
+	50%{
+		color: rgb(255, 145, 230);
+	}
+
+	100%{
+		color:rgb(100, 157, 227);
+	}
+}
+
+@keyframes intro {
+	0%{
+		color: #f2c9e2;
+	}
+
+	35%{
+		color:#c4f086;
+	}
+
+	65%{
+		color:#9bdfeb;
+	}
+
+	100%{
+		color:#f2c9e2;
+	}
+}
+
+html{
+	background-image: url(../gifs/bg/Worlds-1.gif);
+	cursor: url(../cursors/Wii.cur), auto;
+}
+
+body{
+	background-color: rgba(0,0,0,.7);
+	width:100%;
+	height:100%;
+
+}
+
+a{
+	cursor: url(../cursors/Wii2.cur), auto;
+	text-decoration: none;
+	color: inherit;
+}
+
+a:visited{
+	color: inherit;
+}
+
+h3{
+	font-family: comicsans;
+	font-size: 20px;
+	color: lightgrey;
+}
+
+h4{
+	font-family: comicsans;
+	font-size:15px;
+	color: lightgrey;
+}
+
+#intro{
+	padding-top: 25px;
+	padding-left: 50px;
+	font-family: preschool;
+	font-size: 100px;
+	animation-name: intro;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	position: relative;
+	z-index: 10;
+}
+
+#gaybar{
+	position: relative;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	font-family: disco;
+	font-size:50px;
+	animation-name: disco;
+	animation-duration:5s;
+	animation-iteration-count: infinite;
+}
+
+#gaypics{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;	
+	width: 500px;
+}
+
+#lmao{
+	text-align: center;
+	padding-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	font-family: disco;
+	animation-name: disco;
+	font-size:50px;
+	animation-duration:5s;
+	animation-iteration-count: infinite;
+}
+
+#back{
+	position: fixed;
+	padding-left: 15px;
+	bottom: 10px;
+}
+
+
+
+
+
+

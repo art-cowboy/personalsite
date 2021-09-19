@@ -1,0 +1,291 @@
+old index
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta charset="utf-8">
+		<title>C Woods</title>
+	
+	</head>
+
+	<body id="index">
+		<div id="slice-1">
+			<div id="intro">
+				<!-- <div id="oof">
+					<-view gallery
+				</div> -->
+				<a href="index.html">CWoods</a>
+				<a href="sailormoon.html"><img width= 100 src="gifs/moon/pretty3.gif"></a>
+				<a href="download.html"><img src="gifs/icons/download5.gif"></a>
+				<a href="prettyspace.html"><img width= 100 src="gifs/pretty/prettyspace3.gif"></a>
+				<!-- <a href="gallery.2.1/gallery.html"><img width= 100 src="gifs/god/fingerofgod.gif"></a> -->
+				<br>
+				<a href="index.html">Portfolio<a>
+				<a href="new.html"><img width= 125 src="gifs/edgy/newmetal.gif"></a>
+				<a href="enter.html"><img src="gifs/nsfw/enter.gif"></a>
+				<a target="_blank" href="https://clarksrealitygallery.com"><img width=150 src="gifs/art/realitygallery.gif"></a>
+				<!-- <a href="art.html"><img src="gifs/icons/color-in.gif"></a> -->
+					<div id="click">
+						<a href="map.html">click here for a
+						<br>
+						directory off the site</a>
+					</div> 			</div>
+		<div>
+			<!-- <a href="https://forms.gle/pGeytYM6UMRV7hPKA" target="_blank">
+				<img id="cwark" width=600 src="pics/digital_gallery.png">
+			</a> -->
+
+			<div id="daisy">
+				<div id="anitorch">
+					<div id="drk">
+						<div id="sword3">
+							<div id="dove">
+								<!-- <div id="yoinks">
+									<a href="yoinks.html">yoinks</a>
+								</div>
+								<div id="wtf">
+									<a href="wtf.html">wtf</a>
+								</div>
+								<div id="lmao">
+									<a href="lmao.html">lmao </a>
+								</div>
+								<div id="yeet">
+									<a href="yeet.html">yeet</a>
+								</div>
+								<div id="omg">
+									<a href="omg.html">omg</a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<a href="links.html" ><img id="chainlink" src="gifs/border/chainlink.gif"></a>
+			</div>
+		</div>
+	</body>
+
+</html>
+
+
+
+
+old css
+
+
+
+@font-face{
+	font-family:cowboy;
+	src: url(../fonts/bleedingcowboys.ttf);
+}
+@font-face{
+	font-family: bravada;
+	src: url(../fonts/bravada.ttf);
+}
+@font-face{
+	font-family:comicsans;
+	src: url(../fonts/comicsans.ttf);
+}
+@font-face{
+	font-family: disco;
+	src: url(../fonts/diskoteque.ttf);
+}
+@font-face{
+	font-family:germ;
+	src: url(../fonts/germanika.ttf);
+}
+@font-face{
+	font-family: herc;
+	src: url(../fonts/herculanum.ttf);
+}
+@font-face{
+	font-family:starlight;
+	src: url(../fonts/ladystarlight.ttf);
+}
+@font-face{
+	font-family: preschool;
+	src: url(../fonts/preschooler.ttf);
+}
+@font-face{
+		font-family: riesling;
+	src: url(../fonts/riesling.ttf);
+}
+
+html{
+	background-image: url(../gifs/bg/space2.gif);
+
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	border:0px;
+	cursor: url(../gifs/god/cross.gif), auto;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	cursor: url(../gifs/god/cross4.gif), auto;
+
+}
+
+
+@keyframes intro {
+	0%{
+		color: #f2c9e2;
+	}
+
+	35%{
+		color:#c4f086;
+	}
+
+	65%{
+		color:#9bdfeb;
+	}
+
+	100%{
+		color:#f2c9e2;
+	}
+}
+
+#oof{
+	position: absolute;
+	color: white;
+	font-family: comicsans;
+	font-size: 18px;
+	top: 70px;
+	left: 880px;
+}
+
+#cwark{
+	position: absolute; 
+	z-index: 15;
+	padding-left: 200px;
+	padding-top: 100px;
+
+}
+
+#index{
+	cursor: url(../gifs/god/cross.gif), auto;
+}
+
+#click{
+	z-index: 11;
+	right: 20px;
+	color: white;
+	font-family: comicsans;
+	font-size: 18px;
+	position: absolute;
+}
+
+#intro{
+	padding-top: 25px;
+	padding-left: 50px;
+	font-family: preschool;
+	font-size: 100px;
+	animation-name: intro;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	position: relative;
+	z-index: 10;
+	height:200px;
+}
+
+#slice-1{
+	background-image: url(../gifs/bg/space2.gif);
+	width:100%;
+	position: relative;
+	height:1020px;
+}
+
+#drk{
+	background-image: url(../gifs/fairy/drkfairy.gif);
+	background-image-repeat:round;
+	position: relative;
+	z-index:1;
+	width: 100%;
+	height:750px;
+}
+
+#dove{
+	background-image: url(../gifs/god/dove.gif);
+	background-image-repeat:round;
+	position: relative;
+	z-index:2;
+	top: 110px;
+	width: 100%;
+	height:550px;
+}
+
+#sword3{
+	background-image: url(../gifs/edgy/sword3.gif);
+	background-image-repeat:round;
+	position: relative;
+	z-index: 3;
+	width: 100%;
+	height:750px;
+}
+
+#anitorch{
+	background-image: url(../gifs/edgy/anitorch.gif);
+	background-image-repeat:round;
+	position: relative;
+	z-index:4;
+	width:100%;
+	height:750px;
+}
+
+#chainlink{
+	padding-top: 10px;
+	width: 100%;
+}
+
+#chainlink:hover{
+	cursor: url(../gifs/god/cross4.gif), auto;
+}
+
+#daisy{
+	background-image: url(../gifs/flower/daisy.gif);
+}
+
+#lmao{
+	padding-top:100px;
+	padding-left:500px;
+	position: absolute;
+}
+
+#omg{
+	padding-top:0px;
+	padding-left:100px;
+	position: absolute;
+}
+
+#yeet{
+	padding-top: 400px;
+	padding-left:250px;
+	position: absolute;
+}
+
+#wtf{
+	padding-top:250px;
+	padding-left:700px;
+	position: absolute;
+}
+
+#yoinks{
+	padding-top:50px;
+	padding-left:900px;
+	position: absolute;
+}
+
+
+
+

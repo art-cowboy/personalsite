@@ -1,0 +1,174 @@
+
+@font-face{
+	font-family:cowboy;
+	src: url(../fonts/bleedingcowboys.ttf);
+}
+@font-face{
+	font-family: bravada;
+	src: url(../fonts/bravada.ttf);
+}
+@font-face{
+	font-family:comicsans;
+	src: url(../fonts/comicsans.ttf);
+}
+@font-face{
+	font-family: disco;
+	src: url(../fonts/diskoteque.ttf);
+}
+@font-face{
+	font-family:germ;
+	src: url(../fonts/germanika.ttf);
+}
+@font-face{
+	font-family: herc;
+	src: url(../fonts/herculanum.ttf);
+}
+@font-face{
+	font-family:starlight;
+	src: url(../fonts/ladystarlight.ttf);
+}
+@font-face{
+	font-family: preschool;
+	src: url(../fonts/preschooler.ttf);
+}
+@font-face{
+	font-family: riesling;
+	src: url(../fonts/riesling.ttf);
+}
+@font-face{
+	font-family: wish;
+	src: url(../fonts/Sailor-Moon-Font/WishMF.ttf);
+}
+@font-face{
+	font-family: hard;
+	src: url(../fonts/Sailor-Moon-Font/HARDW.ttf);
+}
+
+@keyframes hover {
+
+	0%{
+		color: rgb(255, 0, 255);
+	}
+
+	100%{
+		color: yellow;
+	}
+}
+
+html{
+	background-image: url(../gifs/bg/pinksparkles.gif);
+	background-repeat: no-repeat;
+ 	background-attachment: fixed; 
+  	background-size: cover;
+	cursor: url(../cursors/SaliorMoon.cur), auto;
+
+}
+
+body{
+	background-color: rgba(255, 133, 255,.2);
+
+}
+
+a,a:visited{
+	cursor: url(../cursors/moon-stick.cur), auto;
+	text-decoration: none;
+	text-decoration: inherit;
+	color:inherit;
+}
+
+a:hover{
+	animation-name: hover;
+	animation-duration: .1s;
+	animation-iteration-count: infinite;
+}
+
+h2{
+	color: yellow;
+	text-align: center;
+	font-size: 50px;
+	font-family: wish;
+}
+
+h3{
+	color: rgb(255, 0, 255);
+	text-align: center;
+	font-family: comicsans;
+}
+
+video{
+	width: 100%;
+	height: auto;
+	min-width: 100px;
+	z-index: 5;
+}
+
+
+#intro{
+	position: relative;
+	margin-bottom: 30px;
+	background-image: url(../gifs/bg/space.gif);
+
+}
+
+#big{
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+}
+
+#bg{
+	position: absolute;
+	z-index: 1;
+}
+
+.moon{
+	display: grid;
+	position: relative;
+	max-width: 500px;
+	height: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+}
+
+.moontext{
+	width: 500px;
+	margin-left: auto;
+	height: auto;
+}
+
+#back{
+	padding-left: 10px;
+	position: fixed;
+	bottom: 5px;
+	z-index: 3;
+}
+
+#back2{
+	padding-left: 60px;
+	position: fixed;
+	bottom: 5px;
+	z-index: 2;
+}
+
+#next{
+	right: 10px;
+	position: fixed;
+	bottom: 5px;
+	z-index: 3;
+}
+
+#next2{
+	right: 60px;
+	position: fixed;
+	bottom: 5px;
+	z-index: 2;
+}
+
+
+
+
+
+
+
